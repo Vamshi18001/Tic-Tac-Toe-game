@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="stylesheet/user.css">
+</head>
+<body>
+    <div class="welcome">
+        <h1>Welcome</h1>
+    </div>
+
+    <div class="winner" hidden>
+        <h1>Congratulations</h1>
+        <p class="declare"></p>
+    </div>
+    
+    <div class="para" hidden>
+        <p>Do you want to play again?</p>
+    </div>
+
+    <div class="optionButtons" hidden>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+    </div>
+
+    <div class="container">
+        <div class="game">
+            <div class="horizontal-line"></div>
+            <div class="horizontal-line hline2"></div>
+
+            <div class="vertical-line"></div>
+            <div class="vertical-line vcross1" hidden></div>
+            <div class="vertical-line vcross2" hidden></div>
+            <div class="vertical-line vcross3" hidden></div>
+            <div class="vertical-line vline2"></div>
+            
+            <div class="horizontal-line hcross1" hidden></div>
+            <div class="horizontal-line hcross2" hidden></div>
+            <div class="horizontal-line hcross3" hidden></div>
+
+            <div class="horizontal-line hcross2 dcross1" hidden></div>
+            <div class="horizontal-line hcross2 dcross2" hidden></div>
+
+            <div class="boxes">
+                <button class="bt0 b"></button>
+                <button class="bt1 b"></button>
+                <button class="bt2 b"></button>
+                <button class="bt3 b"></button>
+                <button class="bt4 b"></button>
+                <button class="bt5 b"></button> 
+                <button class="bt6 b"></button>
+                <button class="bt7 b"></button>
+                <button class="bt8 b"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="reset">
+        <button class="but" type="reset">Reset</button>
+    </div>
+
+    <script src="user.js"></script>
+</body>
+</html>
