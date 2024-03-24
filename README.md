@@ -1,7 +1,5 @@
 # Tic-Tac-Toe-game
 
-Tic Tac Toe Game with Player vs. Player and Player vs. Computer
-
 This repository contains a classic Tic Tac Toe game implementation where players can compete against each other or against a computer opponent. The game is developed using HTML, CSS, and JavaScript.
 
 # Features
