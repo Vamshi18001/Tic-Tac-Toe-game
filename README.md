@@ -14,6 +14,7 @@ This repository contains a classic Tic Tac Toe game implementation where players
 
 # How to Play
 * Clone the Repository: Clone this repository to your local machine.
+
 Copy code
 git clone https://github.com/your-username/tic-tac-toe.git
 * Open the Game: Open the index.html file in a web browser.
